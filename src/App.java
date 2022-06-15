@@ -15,6 +15,10 @@ public class App {
         System.out.println(book1.getNameOfTheBook() + ", " + author1.getFirstName() + " " + author1.getLastName() + ", " + book1.getPublicationYear());
         System.out.println(book2.getNameOfTheBook() + ", " + author2.getFirstName() + " " + author2.getLastName() + ", " + book2.getPublicationYear() + ". (Не рекомендую к чтению)");
 
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(author1);
+
 //        System.out.println(book1.getPublicationYear());
     }
 }
